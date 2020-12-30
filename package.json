@@ -1,0 +1,28 @@
+{
+  "name": "api-petshop",
+  "version": "1.0.0",
+  "description": "Desenvolvimento para estudar Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegocabeludo/api-petshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegocabeludo/api-petshop/issues"
+  },
+  "homepage": "https://github.com/diegocabeludo/api-petshop#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
